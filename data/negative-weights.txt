@@ -1,0 +1,9 @@
+# A small directed graph with one negative edge and no negative cycle.
+# Bellman-Ford solves it; Dijkstra's greedy choice is not valid here
+# (it would settle B at distance 4 before discovering A -> C -> B = 2).
+directed
+
+A, B, 4
+A, C, 5
+C, B, -3
+B, D, 2

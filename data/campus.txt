@@ -1,0 +1,46 @@
+# CS 3364 Project 3 - campus map, transcribed from page 3 of Project3.pdf.
+#
+# One walkway per line:   building A, building B, distance
+# The map is undirected: every walkway can be walked in both directions.
+# Three labels that are cut short on the map are written out in full here:
+# McAlister Hall, Student Health Center and New Business Building. Two names
+# are capitalised normally; the map prints "McALister" and "Bear village Apt.".
+undirected
+
+College Square, Lewis Science Center, 200
+College Square, Prince Center, 300
+Lewis Science Center, Speech Language Hearing, 250
+Lewis Science Center, Computer Science, 150
+Computer Science, Burdick, 30
+Computer Science, Prince Center, 80
+Computer Science, Torreyson Library, 40
+Speech Language Hearing, Burdick, 100
+Speech Language Hearing, Maintenance College, 120
+Burdick, Torreyson Library, 80
+Burdick, McAlister Hall, 200
+Burdick, Maintenance College, 300
+Prince Center, Torreyson Library, 30
+Prince Center, Police Dept., 100
+Torreyson Library, Old Main, 30
+Old Main, Police Dept., 200
+Old Main, Fine Art, 90
+Old Main, McAlister Hall, 100
+Police Dept., Fine Art, 50
+Police Dept., Student Health Center, 100
+Fine Art, McAlister Hall, 180
+Fine Art, Student Center, 80
+McAlister Hall, Maintenance College, 150
+McAlister Hall, Student Center, 100
+McAlister Hall, Wingo, 50
+Maintenance College, Wingo, 100
+Maintenance College, New Business Building, 150
+Maintenance College, Oak Tree Apt., 160
+Student Center, Wingo, 100
+Student Center, Student Health Center, 50
+Student Center, New Business Building, 110
+Wingo, New Business Building, 50
+New Business Building, Oak Tree Apt., 30
+New Business Building, Brewer-Hegeman, 20
+Oak Tree Apt., Brewer-Hegeman, 40
+Student Health Center, Brewer-Hegeman, 200
+Brewer-Hegeman, Bear Village Apt., 350
